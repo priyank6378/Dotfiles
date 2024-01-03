@@ -7,7 +7,7 @@ bspc monitor -d I II III IV V VI VII VIII IX X
 feh --bg-fill ~/wallpaper/wall.jpg
 bash ~/.config/polybar/launch.sh --forest
 xrdb ~/.Xresources
-xinput set-prop 13 335 -100 -100
+bash ~/my_scripts/touchpad_setting.sh
 
 # bash ~/my_scripts/bluetooth_start.sh
 

@@ -170,3 +170,11 @@ XF86MonBrightnessDown
 # Shutdown
 alt + shift + F4
 	shutdown now
+
+# vs code
+super + shift + v
+	code 
+
+# rofi 
+super + z
+	rofi -no-config -no-lazy-grab -show drun -modi drun -theme /home/zoid/.config/rofi/launchers/type-7/style-1.rasi
