@@ -161,11 +161,11 @@ XF86AudioLowerVolume
 
 # Increase brightness
 XF86MonBrightnessUp
-	bash ~/my_scripts/incr_brightness.sh
+	lxqt-config-brightness -i
 
 # Decrease brightness
 XF86MonBrightnessDown
-	bash ~/my_scripts/decr_brightness.sh
+	lxqt-config-brightness -d
 
 # Shutdown
 alt + shift + F4
